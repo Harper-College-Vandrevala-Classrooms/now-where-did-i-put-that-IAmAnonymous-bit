@@ -10,8 +10,17 @@ using namespace std
     assert(findChar("The quick brown fox", 'e') == 2);
     assert(findChar("Cat's bat about yarn", 'e') == -1);
     
+    assert(findString("The quick brown fox", "he") == 1);
+    assert(findString("Cat's bat about yarn", "he") == -1);
 
-    cout << "All code works well!" << '\n';
+    assert(findChar("The quick brown fox", 'x') == 18);
+    assert(findString("The quick brown fox", "ox") == 17);
+
+    assert(findChar("The quick brown fox", 't') == 0);
+
+    assert(findString("The quick brown fox", "") == -1);
+
+    cout << "All code works fine!" << '\n';
 
     return 0;
 
