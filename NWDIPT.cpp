@@ -2,9 +2,9 @@
 #include <string>
 #include <cctype>
 
-using namespace std
+using namespace std;
 
-;int findChar(string s, char c)
+int findChar(string s, char c)
 {
     if(s.length() == 0)
     {
@@ -29,7 +29,7 @@ using namespace std
     return -1;
 }
 
-;int findChar(string s, char c, int start)
+int findChar(string s, char c, int start)
 {
     if(s.length() == 0)
     {
@@ -54,7 +54,7 @@ using namespace std
     return -1;
 }
 
-;int findString(string s, string ss)
+int findString(string s, string ss)
 {
     if(ss.length() == 0 || s.length() == 0)
     {
@@ -85,7 +85,7 @@ using namespace std
     return -1;
 }
 
-;int findString(string s, string ss, int start)
+int findString(string s, string ss, int start)
 {
     if(ss.length() == 0 || s.length() == 0)
     {
